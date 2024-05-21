@@ -11,7 +11,7 @@ import pathlib
 import psutil
 import platformdirs
 
-__version__ = "1.0.1"
+__version__ = "1.0"
 
 
 def get_uptime():
