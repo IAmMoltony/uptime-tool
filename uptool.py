@@ -11,6 +11,8 @@ import pathlib
 import psutil
 import platformdirs
 
+__version__ = "1.0"
+
 
 def get_uptime():
     """
@@ -78,6 +80,13 @@ def main():
         ),
     )
     parser.add_argument("--verbose", "-v", action="store_true", help="be verbose")
+    parser.add_argument(
+        "--version",
+        "-V",
+        action="version",
+        version=f"%(prog)s {__version__}",
+        help="show version information and exit",
+    )
     args = parser.parse_args()
 
     if args.seconds and args.action != "up" and args.action != "viewrec":
