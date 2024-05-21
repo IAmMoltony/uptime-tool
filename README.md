@@ -1,6 +1,8 @@
 
 # uptime-tool
 
+[![CodeFactor](https://www.codefactor.io/repository/github/iammoltony/uptime-tool/badge)](https://www.codefactor.io/repository/github/iammoltony/uptime-tool)
+
 uptime-tool is a tool for managing the system's uptime
 
 ## Installation
